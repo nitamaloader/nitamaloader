@@ -12,10 +12,10 @@
 :root {
   scroll-behavior: smooth;
   --bg-color: #000000;
-  --frame-color: #1b1b1b;
+  --frame-color: #0d0d0d;
   --button-color: #292929;
   --highlight-color: #1658ff;
-  --highlight2-color: #ff7e17;
+  --highlight2-color: #1658ff;
   --brighter-highlight-color: #3971fe;
   --text-color: #fff;
   --context-color: #bdbdbd;
@@ -37,6 +37,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #444444;
   background: var(--bg-color);
+  
 }
 
 a {
@@ -196,7 +197,7 @@ section {
 .header {
   transition: all 0.5s;
   backdrop-filter: blur(10px);
-  background: var(--bg-color);
+
   z-index: 997;
   padding: 20px 0;
 }
@@ -219,12 +220,13 @@ section {
 }
 
 .header .logo span {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 650;
   letter-spacing: 1px;
   color: var(--text-color);
   font-family: "Montserrat", sans-serif;
-  margin-top: 3px;
+  margin-top: 2px;
+  margin-left: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -472,7 +474,6 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: var(--bg-color);
   background-size: cover;
 }
 
@@ -488,14 +489,15 @@ section {
 }
 .hero h2 {
   color: var(--context-color);
-  margin: 15px 0 0 0;
-  font-size: 26px;
+  margin: 20px 0 0 0;
+
+  font-size: 12px;
 }
 
 .hero .btn-get-started {
   margin-top: 30px;
   line-height: 0;
-  padding: 15px 40px;
+  padding: 20px 50px;
   border-radius: 4px;
   transition: 0.5s;
   color: var(--text-color);
@@ -775,8 +777,8 @@ section {
   font-size: 18px;
   padding-top: 20px;
   margin: 0;
-  font-weight: 700;
-  color: var(--highlight-color);
+  font-weight: 500;
+  color: var(--text-color);
 }
 
 .features .feture-tabs .tab-content i {
@@ -1107,7 +1109,7 @@ section {
 
 .faq .accordion-button:not(.collapsed) {
   background: var(--bg-color);
-  color: var(--highlight2-color);
+  color: var(--context-color);
   border-bottom: 0;
 }
 
